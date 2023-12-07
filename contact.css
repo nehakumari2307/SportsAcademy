@@ -1,0 +1,113 @@
+@font-face { font-family: Bogle; src: url('./css/font/Bogle_Fonts.001/OTF/Bogle-Regular.otf'); }
+@font-face { font-family: DushaV5; font-weight: bold; src: url('./css/font/dusha-v5-regular.ttf');}
+
+#container_contact {
+	height: 100%;
+	width: 100%;
+	/*opacity: 0.6;*/
+    background: url(./assests/img/Header.png);
+}
+
+#top-panel {
+	display: flex;
+}
+
+#icon {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.icon-image {
+	/*height: 7%;*/
+	width: 11.5%;
+	object-fit: contain;
+}
+
+#option {
+	width: 75%;
+}
+
+li {
+	height: 4%;
+  font-family: DushaV5;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+img {
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.a-title {
+	color: #fff;
+	text-decoration: none;
+}
+
+.navbar-right {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    -webkit-padding-start: 0px !important;
+    font-family: Bogle;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+#contact_box {
+	width: 96%;
+    margin: 2%;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.contact_name {
+	padding:1%;
+	font-family: Bogle;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.contact_phone {
+	font-family: Bogle;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 5px 40px;
+}
+
+.contact {
+	height: 83vh;
+}
+
+hr {
+	border: none;
+    border-left: 1px solid hsla(0, 10%, 50%,10);
+    height: 65vh;
+    width: 1px;
+    margin: 0px;
+}
